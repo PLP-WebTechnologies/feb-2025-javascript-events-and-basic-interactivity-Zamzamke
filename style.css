@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f9fc;
+  }
+  
+  img {
+    max-width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .tabs button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #surpriseBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #surpriseBtn:hover {
+    background-color: #ffa500;
+  }
+  
+  form {
+    margin-top: 30px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .feedback {
+    color: red;
+    font-size: 12px;
+  }
+  

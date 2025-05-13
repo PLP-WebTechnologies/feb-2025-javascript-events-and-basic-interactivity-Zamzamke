@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Travel Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1> Mini Travel Planner</h1>
+
+  <div class="tabs">
+    <button class="tab" data-target="paris">Paris</button>
+    <button class="tab" data-target="tokyo">Tokyo</button>
+    <button class="tab" data-target="nairobi">Nairobi</button>
+  </div>
+
+  <div class="content">
+    <div id="paris" class="tab-content hidden">
+      <img src="/images/anthony-delanoix-Q0-fOL2nqZc-unsplash.jpg" alt="Paris"/>
+      <p>Bonjour! Enjoy the romance of Paris.</p>
+    </div>
+    <div id="tokyo" class="tab-content hidden">
+      <img src="/images/pawel-nolbert-4u2U8EO9OzY-unsplash.jpg" alt="Tokyo"/>
+      <p>Experience the buzz of Tokyo.</p>
+    </div>
+    <div id="nairobi" class="tab-content hidden">
+      <img src="/images/murad-swaleh-7tDidSXbgD8-unsplash.jpg" alt="Nairobi"/>
+      <p>Explore the beauty of Nairobi.</p>
+    </div>
+  </div>
+
+  <button id="surpriseBtn"> Surprise Me!</button>
+
+  <form id="travelForm">
+    <h2>Book Your Trip</h2>
+    <label>Name: <input type="text" id="name" required placeholder="enter your name"/></label>
+    <span class="feedback" id="nameFeedback"></span>
+
+    <label>Email: <input type="email" id="email" required placeholder="example@gmail.com" /></label>
+    <span class="feedback" id="emailFeedback"></span>
+
+    <label>Password: <input type="password" id="password" required placeholder="enter your password"/></label>
+    <span class="feedback" id="passwordFeedback"></span>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
